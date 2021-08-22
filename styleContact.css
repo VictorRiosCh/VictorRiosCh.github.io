@@ -1,5 +1,42 @@
 body{
-    font-family: 'Merriweather', serif; /*Bold Negrita*/
-    background: #416D78;
-    margin: 50px;
+    font-family:'Merriweather', serif; /*Bold Negrita*/
+    background: skyblue;
+    margin: 20px;
+}
+table{
+    display: inline-block;
+}
+#tabla{
+    margin-left: 200px;
+    padding-bottom: 50px;
+}
+#io{
+    text-align: right;
+    border-radius: 1000000px;
+    border: 10px solid #F0EACF;
+
+}
+h1{
+    background: #3f848f;    
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    text-align: left;
+    display: inline;
+    font-size: 30px;
+}
+#redes{
+    text-align: left;
+}
+article{
+    background: #3f848f;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 10px solid #F0EACF;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+h3, h1  {
+    color: #F0EACF;
 }
