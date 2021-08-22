@@ -1,58 +1,61 @@
 body{
     font-family: 'Merriweather', serif; /*Bold Negrita*/
-    background: #E32B2C;
+    background: #264B48;
+    background: #416D78;
 }
 h1{
     color: white;
     margin-left: 10px;
 
 }
-
-h2{
-    font-size: 30px;
+h2, p{
     color: white;
     margin-left: 10px;
+
+}
+h2{
+    font-size: 30px;
+    
     display: inline;
 }
 a{
     color: white;
-    background: #E32B2C;
+    background: #264B48;
     border-radius: 1px;
     text-decoration: none;
     outline: none;
     border-radius: 30px;
     padding: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 10px;
+}
+nav{
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 img{
     border-radius: 10px;
 }
 section{
-    margin-top: 10px;
-    padding: 50px;
+    margin: 30px;
+    padding: 20px;
     background-color: white;
-    background-image: url("imagenes/wall.jpg");
     border-radius: 10px;
+    background: #83B799;
+    margin-left: 200px;
+    margin-right: 200px;
+}
 
-    
-}
-article{
-    padding-left: 200px;
-    padding-right: 200px;
-}
 p{
-    color: white;
-    margin-left: 10px;
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
     font-size: 15px;
     margin-bottom: 40px;
 }
- #nombre{
-     color: #E32B2C;
- }
+.pie{
+    text-align: right;
+    color: white;
+    margin-top: 10px;
+}   

@@ -40,3 +40,8 @@ article{
 h3, h1  {
     color: #F0EACF;
 }
+.pie{
+    text-align: right;
+    color: #F0EACF;
+    margin-top: 100px;
+}

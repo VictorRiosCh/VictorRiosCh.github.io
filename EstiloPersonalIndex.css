@@ -1,0 +1,63 @@
+body{
+    font-family: 'Merriweather', serif; /*Bold Negrita*/
+    background: #E32B2C;
+}
+.titulo{
+    color: white;
+    margin-left: 10px;
+
+}
+
+h2{
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+    display: inline;
+}
+a{
+    color: white;
+    background: #E32B2C;
+    border-radius: 1px;
+    text-decoration: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 100px;
+}
+img{
+    border-radius: 10px;
+}
+section{
+    margin-top: 10px;
+    padding: 50px;
+    background-color: white;
+    background-image: url("imagenes/wall.jpg");
+    border-radius: 10px;
+
+    
+}
+article{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+p{
+    color: white;
+    margin-left: 10px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+ #nombre{
+     color: #E32B2C;
+ }
+.pie{
+    text-align: right;
+    color: white;
+    margin-top: 20px;
+}
