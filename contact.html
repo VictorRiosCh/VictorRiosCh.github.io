@@ -10,50 +10,78 @@
     <title>Primer Laboratorio de Ingeniería Web Bv</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="EstiloPersonalContact.css">
+    <link rel="stylesheet" href="estilos/estiloPersonal.css">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <header>
-      <h1>Contacto</h1>
-    </header>
+  <body class="bodyContact">
+    <div class="social">
+      <ul>
+        <li><a href="https://web.facebook.com/victor.rioschavez/" target="_blank" class="icon-facebook"></a></li>
+        <li><a href="https://www.instagram.com/victorriosch/" target="_blank" class="icon-instagram"></a></li>
+        <li><a href="https://victorriosch.github.io/" target="_blank" class="icon-github"></a></li>            
+      </ul>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="divContact">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="refContact">
+              <a class="refContact" href="index.html">Home</a>
+            </li>
+            <li class="refContact">
+              <a class="refContact" href="about.html">About</a>
+            </li>
+            <li class="refContact">
+              <a class="refContact" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+    </nav>
     <section>
-      <article>
-        <table id="tabla">
+      <article class="articleContact">
+        <table class="tablaDatos">
           <tr> 
             <td><img src="imagenes/ubicacion.png" alt="ubicacion" height="50"></td>
-            <td><h3>Celendín - Cajamarca - Perú</h3></td>
+            <td><h3 class="textoContact">Celendín - Cajamarca - Perú</h3></td>
           </tr>
           <tr>
               <td><img src="imagenes/telefono.png" alt="ubicacion" height="50" ></td>
-              <td><h3>+51 982 435 622</h3></td>
+              <td><h3 class="textoContact">+51 982 435 622</h3></td>
           </tr>
           <tr>
             <td><img src="imagenes/correo.png" alt="correo" height="50" ></td>
-            <td><h3>vriosc16_1@unc.edu.pe</h3></td>
+            <td><h3 class="textoContact">vriosc16_1@unc.edu.pe</h3></td>
           </tr>
-          <tr id="redes">
-            <td>
-              <td>
-                <a href="https://web.facebook.com/victor.rioschavez/"><img src="imagenes/facebook.png" alt="foto" height="47"></a>
-                <a href="https://www.instagram.com/victorriosch/"><img src="imagenes/instagram.png" alt="foto" height="50"></a>
-              </td>
-            </td>
-          </tr>
+          
         </table>
-        <table>
+        <table class="tablaImagen">
           <tr>
-            <td><img src="imagenes/io.jpg" alt="" height="350" id="io"></td>
+            <td><img src="imagenes/io.jpg" alt="" height="350" class="io"></td>
           </tr>
         </table>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Comentario </label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="button" class="btn btn-danger" >Enviar</button>
       </article>
 
     </section>
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <footer class="pie">© 2021 Copyright Victor Rios</footer>
+    <footer class="pieContact">© 2021 Copyright Victor Rios</footer>
     <script src="" async defer></script>
   </body>
 </html>

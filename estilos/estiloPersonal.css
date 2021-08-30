@@ -1,0 +1,219 @@
+.bodyIndex{
+    font-family: 'Merriweather', serif; /*Bold Negrita*/
+    background: #E32B2C;
+}
+.titulo{
+    color: white;
+    margin-top: 7px;
+}
+
+.presentacion{
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+    display: inline;
+}
+.etiqueta{
+    color: white;
+    background: #E32B2C;
+    border-radius: 1px;
+    text-decoration: none;
+    outline: none;
+    border-radius: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.imagenIndex{
+    border-radius: 10px;
+}
+.sectionIndex{
+    margin-top: 10px;
+    padding: 50px;
+    background-color: white;
+    background-image: url("/imagenes/wall.jpg");
+    border-radius: 10px;    
+}
+.articleIndex{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.contenido{
+    color: white;
+    margin-left: 10px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.nombre{
+     color: #E32B2C;
+     display: inline;
+ }
+.pieIndex{
+    text-align: right;
+    color: white;
+    margin-top: 20px;
+}
+
+.container-fluid{
+    background: #E32B2C;
+    border-radius: 10px;
+}
+/*CONTACT*/
+
+.bodyContact{
+    font-family:'Merriweather', serif; /*Bold Negrita*/
+    background: #bd1e1e;
+    margin: 20px;
+}
+.tablaImagen{
+    display: inline-block;
+}
+.tablaDatos{
+    margin-left: 200px;
+    padding-bottom: 100px;
+    display: inline-block;
+}
+.io{
+    text-align: right;
+    border-radius: 1000000px;
+    border: 10px solid #F0EACF;
+}
+
+.redes{
+    text-align: left;
+}
+.articleContact{
+    background: #3f848f;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 10px solid #F0EACF;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.textoContact, .refContact  {
+    color: #F0EACF;
+}
+.pieContact{
+    text-align: right;
+    color: #F0EACF;
+    margin-top: 100px;
+}
+.refContact{
+    background: #3f848f;    
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    text-align: left;
+    margin-left: 10px;
+    display: inline;
+    font-size: 30px;
+    text-decoration: none;
+    outline: none;
+}
+.divContact{
+    border-radius: 10px;
+}
+.form-label{
+    color: #F0EACF;
+}
+
+.mb-3{
+    margin: 20px;
+}
+/*ABOUT*/
+.bodyAbout{
+    font-family: 'Merriweather', serif; 
+    background: #416D78;
+}
+.bienvenidoAbout, .textoAbout{
+    color: white;
+    margin-left: 10px;
+
+}
+.bienvenidoAbout{
+    font-size: 30px;
+    display: inline;
+}
+.refAbout{
+    color: white;
+    background: #264B48;
+    border-radius: 1px;
+    text-decoration: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+    display: inline;
+}
+.imagenAbout{
+    border-radius: 10px;
+}
+.sectionAbout{
+    margin: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    background: #83B799;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.textoAbout{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.pieAbout{
+    text-align: right;
+    color: white;
+    margin-top: 10px;
+}   
+.divAbout{
+    background: #416D78;
+    display: inline;
+
+}
+.social {
+	position: fixed; 
+	top: 200px; 
+	z-index: 2000; 
+}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; 
+	}
+
+	.social ul li .icon-facebook {background:#3b5998;} 
+	.social ul li .icon-instagram {background: #ee8c1d;}
+	.social ul li .icon-whatsapp {background: #26a116;}
+	.social ul li .icon-youtube {background: #d42029;}
+	.social ul li .icon-twitch {background: #6f0779;}
+    .social ul li .icon-github {background: #0f0f0f;}
+
+	.social ul li a:hover {
+		background: #000; 
+		padding: 10px 30px; 
+	}
+

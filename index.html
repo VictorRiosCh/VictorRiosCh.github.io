@@ -10,37 +10,85 @@
     <title>Blog Personal</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="EstiloPersonalIndex.css">
+    <link rel="stylesheet" href="estilos/estiloPersonal.css">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body >
-    <header class="titulo">
-      <h1>Blog Personal</h1>
+  <body class="bodyIndex" >
+    <div class="social">
+      <ul>
+        <li><a href="https://web.facebook.com/victor.rioschavez/" target="_blank" class="icon-facebook"></a></li>
+        <li><a href="https://www.instagram.com/victorriosch/" target="_blank" class="icon-instagram"></a></li>
+        <li><a href="https://victorriosch.github.io/" target="_blank" class="icon-github"></a></li>            
+      </ul>
+    </div>
+    <header>
+      <h1></h1>
     </header>
-
-    <section>
-      <article>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <h1 class="titulo" href="index.html">Blog Personal</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="etiqueta">
+              <a class="etiqueta" href="index.html">Home</a>
+            </li>
+            <li class="etiqueta">
+              <a class="etiqueta" href="about.html">About</a>
+            </li>
+            <li class="etiqueta">
+              <a class="etiqueta" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="sectionIndex">
+      <article class="articleIndex">
         <table>
           <tr>
             <td>
-                <img src="imagenes/Cajamarca.jpg" alt="image" height="400" >
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="imagenes/Cajamarca.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/vicymorty.jpg" class="d-block w-100" alt="...">
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </td>
-            <td id="info">
-                <h2>Hola, soy</h2>
-                <h2 id="nombre">Víctor Ríos Chávez!</h2> 
-                <p>Soy un estudiante de la carrera de Ingeniería de Sistemas
+            <td>
+                <h2 class="presentacion">Hola, soy   </h2>
+                <h2 class="nombre"> Víctor Ríos Chávez!</h2> 
+                <p class="contenido">Soy un estudiante de la carrera de Ingeniería de Sistemas
                   en la Universidad Nacional de Cajamarca, actualmente tengo 
                   22 años y resido en el distrito de Celendin en Cajamarca.</p>
-                  <nav>
-                    <a href="about.html">More About Me</a>
-                    <a href="contact.html">Contact</a>
-                  </nav>
             </td>
           </tr>
         </table>
       </article>
     </section>
-    <footer class="pie">© 2021 Copyright Victor Rios</footer>
+    <footer class="pieIndex">© 2021 Copyright Victor Rios</footer>
     
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
