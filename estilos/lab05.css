@@ -1,0 +1,65 @@
+.divLab05{
+    background: #C8F5E8;
+    text-align: center;
+    font-family: Calibri;
+    padding-bottom: 30px;
+    padding-top: 3px;
+}
+.titulo{
+    font-weight: bold;
+}
+.tableDatos{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+.tableResultado{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    margin-top: 30px;
+}
+.azul{
+    background-color: #1D6FA9;
+    border: 2px solid #135380;
+    color: white;
+}
+.naranja{
+    background-color: #B74919;
+    border: 2px solid #993B12;
+    color: white;
+}
+.colorear{
+    background-color: #B74919;
+    border: 2px solid #993B12;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+}
+.colorear:hover{
+    background-color: #a33a0d;
+    cursor: pointer;
+}
+.extraer{
+    background-color: #F19D19;
+    border: 2px solid white;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+}
+.extraer:hover{
+    background-color: #e08f0c;
+    cursor: pointer;
+}
+input{
+    border: 2px solid #993B12;
+}
+.inputRes{
+    width: 100px;
+}
