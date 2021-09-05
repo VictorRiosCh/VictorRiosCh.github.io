@@ -36,3 +36,35 @@ function clickExtraer(){
         edad.value = (fechaActual.getFullYear()-fechaNac.getFullYear())-1;
     }
 }
+
+var botonColorear = document.getElementById("colorear");
+
+botonColorear.onclick = clickColorear;
+let v=1;
+
+function clickColorear(){
+    let naranjas = document.getElementsByClassName("naranja");
+    let azules = document.getElementsByClassName("azul");
+
+    if (v) {
+        for (let i = 0; i < azules.length; i++) {
+            azules[i].style.backgroundColor="#B74919";
+            azules[i].style.border="2px solid #993B12";
+        }
+        for (let i = 0; i < naranjas.length; i++) {
+            naranjas[i].style.backgroundColor="#1D6FA9";
+            naranjas[i].style.border="2px solid #135380";
+        }
+        v=0;
+    } else {
+        for (let i = 0; i < azules.length; i++) {
+            azules[i].style.backgroundColor="#1D6FA9";
+            azules[i].style.border="2px solid #135380";
+        }
+        for (let i = 0; i < naranjas.length; i++) {
+            naranjas[i].style.backgroundColor="#B74919";
+            naranjas[i].style.border="2px solid #993B12";
+        }
+        v=1;
+    }
+}
