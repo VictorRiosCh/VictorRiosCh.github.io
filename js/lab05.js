@@ -38,14 +38,12 @@ function clickExtraer(){
 }
 
 var botonColorear = document.getElementById("colorear");
-
 botonColorear.onclick = clickColorear;
 let v=1;
-
 function clickColorear(){
     let naranjas = document.getElementsByClassName("naranja");
     let azules = document.getElementsByClassName("azul");
-
+    let colorear = document.getElementById("colorear")
     if (v) {
         for (let i = 0; i < azules.length; i++) {
             azules[i].style.backgroundColor="#B74919";
@@ -55,6 +53,8 @@ function clickColorear(){
             naranjas[i].style.backgroundColor="#1D6FA9";
             naranjas[i].style.border="2px solid #135380";
         }
+        colorear.style.backgroundColor="#1D6FA9";
+        colorear.style.border="2px solid #135380";
         v=0;
     } else {
         for (let i = 0; i < azules.length; i++) {
@@ -65,6 +65,8 @@ function clickColorear(){
             naranjas[i].style.backgroundColor="#B74919";
             naranjas[i].style.border="2px solid #993B12";
         }
+        colorear.style.backgroundColor="#B74919";
+        colorear.style.border="2px solid #993B12";
         v=1;
     }
 }
